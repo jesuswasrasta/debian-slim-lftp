@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:trixie-slim
 MAINTAINER Ferdinando Santacroce
 
 RUN apt-get update -qq \
