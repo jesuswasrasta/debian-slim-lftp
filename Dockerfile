@@ -1,5 +1,5 @@
 FROM debian:trixie-slim
-MAINTAINER Ferdinando Santacroce
+LABEL maintainer="Ferdinando Santacroce"
 
 RUN apt-get update -qq \
     && apt-get install -y -qq openssh-client git lftp ssh sshpass \
